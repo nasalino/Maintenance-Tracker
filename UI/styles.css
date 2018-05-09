@@ -92,12 +92,12 @@ nav ul li a:hover
 .intro-text{
 
 margin-top:10px;
-
+font-size:2em;
 
 
 }
-	.button1 {
-		display: inline-block;
+.button1 {
+    display: inline-block;
     background-color: #8A2BE2; 
     color: white; 
     border: 1px solid #8A2BE2;
