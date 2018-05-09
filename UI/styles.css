@@ -185,15 +185,20 @@ footer li i:hover
 
 }
 
-
+/*---Start of sign up page*/
 .form{
  width:80%;
  margin-right:auto;
  margin-left:auto;
 
+
+}
+.intro-text-2{
+
+	text-align:center;
 }
 
- input[type=text], input[type=password] input[type=number]{
+ input[type=text], input[type=password], input[type=number]{
  	clear: left;
   width: 40%;
   padding: 15px;
@@ -203,10 +208,60 @@ footer li i:hover
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus input[type=number]{
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
   background-color: #ddd;
   outline: none;
 }
+
+
+
+
+
+.cancelbtn{
+
+	 display: inline-block;
+  border-radius:5px;
+  width:100px;
+  text-align:center;
+   background-color: white;
+  color: black;
+  text-align: center;
+   border: 1px solid black;
+    font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+
+.signupbtn {
+  display: inline-block;
+  border-radius:5px;
+  width:100px;
+  text-align:center;
+   background-color: #8A2BE2;
+  color: white;
+  text-align: center;
+   border: 1px solid black;
+    font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top:25px;
+}
+.cancelbtn:hover {
+    background-color: #8A2BE2;
+    color: white;
+}
+.signupbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+
 
 @media screen and (max-width: 768px)
 
