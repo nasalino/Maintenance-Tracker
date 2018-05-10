@@ -72,7 +72,7 @@ nav ul li a:hover
 		width:40%;
 		margin-right:auto;
 		margin-left:auto;
-		border: solid black;
+		
 		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;
 
 	}
@@ -106,6 +106,7 @@ transition: all 0.5s;
   cursor: pointer;
   padding: 20px;
   font-size: 28px;
+  border-radius: 15px;
 }
 
 .button1:hover {
@@ -128,6 +129,7 @@ transition: all 0.5s;
   cursor: pointer;
   margin-top: 200px;
   border: 1px solid black;
+  border-radius: 15px;
 }
 .button:hover {
     background-color: #8A2BE2;
@@ -272,8 +274,9 @@ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 }
 
 .register-1{ 
-        text-align: center;
-		width:60%;
+  margin-top:60px;
+    text-align: center;
+		width:40%;
 		margin-right:auto;
 		margin-left:auto;
 		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;
