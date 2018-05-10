@@ -347,7 +347,19 @@ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
   margin: 5% 0px 0px 30%; 
 }
 
+/*---start make request page---*/
 
+.request-form{
+
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+
+h3{
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
 
 /*--- Start of media --*/
 
