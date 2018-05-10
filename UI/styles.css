@@ -73,7 +73,7 @@ nav ul li a:hover
 		margin-right:auto;
 		margin-left:auto;
 		border: solid black;
-		font-family:font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;
 
 	}
 
@@ -271,6 +271,15 @@ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
     color: black;
 }
 
+.register-1{ 
+        text-align: center;
+		width:60%;
+		margin-right:auto;
+		margin-left:auto;
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;
+ }
+
+/*---- Start of home page --- */
 
 
 @media screen and (max-width: 768px)
