@@ -371,6 +371,15 @@ text-align:center;
 cursor: pointer;
 padding: 10px;
 }
+
+/*---start of resolve request---*/
+
+textarea{
+
+  background-color: #e5e5e5;
+  border-radius:10px;
+}
+
 /*--- Start of media --*/
 
 @media screen and (max-width: 768px)
