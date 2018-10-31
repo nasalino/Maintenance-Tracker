@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title> Work space | iTrackr </title>
+	<title> Manage request | iTrackr </title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -47,10 +47,12 @@
   
   </header>
 
+
+
 <div id= "requests">
   <p> View all requests below</p>
-
-<table class ="table">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<table class ="table" id= "myTable">
   <thead>
     <th>S/N</th>
     <th> Date </th>
@@ -81,7 +83,7 @@
     <td>5/10/2018</td>
     <td>#104</td>
     <td>in progress</td>
-    <td>Ben Franklin</td>
+    <td>Thomas Jefferson</td>
     <td>Acoounting</td>
     <td>Laptop power pack not functioning</td>
     <td> <input  class="acceptbtn" type= "submit" value= "accept">  </td>
@@ -92,7 +94,7 @@
     <td>5/10/2018</td>
     <td>#104</td>
     <td>in progress</td>
-    <td>Ben Franklin</td>
+    <td>John Hancock</td>
     <td>Acoounting</td>
     <td>Laptop power pack not functioning</td>
     <td> <input  class="acceptbtn" type= "submit" value= "accept">  </td>
@@ -123,5 +125,6 @@
     <p>&copy; Ihemebiri Chinasa 2018 </p>
   
   </div>
+   <script type="text/javascript " src="script.js"></script>
 </body>
 </html>
